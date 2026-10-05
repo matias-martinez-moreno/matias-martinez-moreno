@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 80 1200 90" role="img" aria-hidden="true">
+  <style>
+    .t { font-family: 'Segoe UI', 'Inter', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  </style>
+  <defs>
+    <linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".5" stop-color="#06b6d4"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <linearGradient id="tx" gradientUnits="userSpaceOnUse" x1="400" x2="800" spreadMethod="reflect">
+      <stop offset="0" stop-color="#a78bfa"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;400 0;0 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#w1)" opacity=".35">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0 110 C 200 70 400 150 600 110 S 1000 70 1200 110 V170 H0Z;
+              M0 110 C 200 150 400 70 600 110 S 1000 150 1200 110 V170 H0Z;
+              M0 110 C 200 70 400 150 600 110 S 1000 70 1200 110 V170 H0Z"/>
+  </path>
+  <path fill="url(#w1)" opacity=".7">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="M0 130 C 250 160 450 100 600 130 S 950 160 1200 130 V170 H0Z;
+              M0 130 C 250 100 450 160 600 130 S 950 100 1200 130 V170 H0Z;
+              M0 130 C 250 160 450 100 600 130 S 950 160 1200 130 V170 H0Z"/>
+  </path>
+</svg>

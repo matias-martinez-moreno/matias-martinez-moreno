@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-label="Porvoz">
+  <style>
+    .sans { font-family: 'Segoe UI', 'Inter', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', monospace; }
+    .in { opacity: 0; animation: up .8s ease-out forwards; }
+    .a1 { animation-delay: .1s; } .a2 { animation-delay: .25s; } .a3 { animation-delay: .4s; }
+    @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .arrow { animation: nudge 1.6s ease-in-out infinite; }
+    @keyframes nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(5px); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#080b14"/></linearGradient>
+    <linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="270" spreadMethod="reflect">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#0ea5e9" stop-opacity=".15"/><stop offset="1" stop-color="#0ea5e9" stop-opacity=".7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;600 270;0 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="halo"><stop offset="0" stop-color="#22d3ee" stop-opacity=".45"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+    <clipPath id="clip"><rect width="600" height="270" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)" class="sans">
+    <rect width="600" height="270" fill="url(#bg)"/>
+    <circle cx="80" cy="270" r="120" fill="#0ea5e9" opacity=".3" filter="url(#blur)">
+      <animate attributeName="opacity" values=".18;.38;.18" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <g transform="translate(90 135)"><g class="in a1">
+      <circle r="62" fill="url(#halo)"/>
+      <circle r="44" fill="#0b1220" stroke="#22d3ee" stroke-opacity=".3" stroke-width="1.5"/>
+      <circle r="52" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="10 9" stroke-opacity=".6">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="20s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="-27" y="-6" width="6" height="12" rx="3" fill="#22d3ee"><animate attributeName="height" values="12;28;12" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="-6;-14;-6" dur="1.1s" repeatCount="indefinite"/></rect><rect x="-15" y="-14" width="6" height="28" rx="3" fill="#22d3ee"><animate attributeName="height" values="28;12;28" dur="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="-14;-6;-14" dur="0.9s" repeatCount="indefinite"/></rect><rect x="-3" y="-22" width="6" height="44" rx="3" fill="#22d3ee"><animate attributeName="height" values="44;20;44" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="-22;-10;-22" dur="1.2s" repeatCount="indefinite"/></rect><rect x="9" y="-12" width="6" height="24" rx="3" fill="#22d3ee"><animate attributeName="height" values="24;40;24" dur="1s" repeatCount="indefinite"/><animate attributeName="y" values="-12;-20;-12" dur="1s" repeatCount="indefinite"/></rect><rect x="21" y="-7" width="6" height="14" rx="3" fill="#22d3ee"><animate attributeName="height" values="14;30;14" dur="0.8s" repeatCount="indefinite"/><animate attributeName="y" values="-7;-15;-7" dur="0.8s" repeatCount="indefinite"/></rect>
+    </g></g>
+    <g class="in a2">
+      <text class="mono" x="170" y="62" font-size="12" letter-spacing="3" fill="#22d3ee">01</text>
+      <text x="542" y="62" text-anchor="end" font-size="14" font-weight="600" fill="#e2e8f0">View repo</text><g class="arrow"><text x="564" y="62" text-anchor="end" font-size="16" font-weight="700" fill="#22d3ee">→</text></g>
+      <text x="170" y="108" font-size="32" font-weight="800" fill="#f8fafc">Porvoz</text>
+    </g>
+    <text class="in a3" x="170" y="144" font-size="18" fill="#a3b1c6"><tspan x="170" dy="0">Medication reminders through automated</tspan><tspan x="170" dy="26">voice calls, Gemini response analysis</tspan><tspan x="170" dy="26">and caregiver alerts.</tspan></text>
+    <g class="in a3"><g transform="translate(170 220)"><rect width="69" height="28" rx="14" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4"/><text x="34.5" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#22d3ee">Django</text></g><g transform="translate(247 220)"><rect width="69" height="28" rx="14" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4"/><text x="34.5" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#22d3ee">Twilio</text></g><g transform="translate(324 220)"><rect width="69" height="28" rx="14" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4"/><text x="34.5" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#22d3ee">Gemini</text></g><g transform="translate(401 220)"><rect width="69" height="28" rx="14" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4"/><text x="34.5" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#22d3ee">Celery</text></g></g>
+  </g>
+  <rect x="1" y="1" width="598" height="268" rx="21" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
+</svg>
