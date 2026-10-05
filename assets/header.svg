@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
   <title id="title">Matías Martínez Moreno</title>
-  <desc id="desc">Systems Engineering at EAFIT · Projects and automation · Medellín, Colombia</desc>
+  <desc id="desc">Systems Engineering at EAFIT · Software, automation and AI · Medellín, Colombia</desc>
   <style>
     .sans { font-family: 'Segoe UI', 'Inter', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
@@ -97,8 +97,8 @@
 
     <g class="mono" font-size="24" text-anchor="middle" fill="#e2e8f0">
       <text class="role r1" x="600" y="232"><tspan fill="#a78bfa">❯ </tspan>Systems Engineering · EAFIT<tspan class="caret" fill="#22d3ee"> ▌</tspan></text>
-      <text class="role r2" x="600" y="232"><tspan fill="#a78bfa">❯ </tspan>Project-driven work<tspan class="caret" fill="#22d3ee"> ▌</tspan></text>
-      <text class="role r3" x="600" y="232"><tspan fill="#a78bfa">❯ </tspan>Process automation<tspan class="caret" fill="#22d3ee"> ▌</tspan></text>
+      <text class="role r2" x="600" y="232"><tspan fill="#a78bfa">❯ </tspan>Software &amp; automation @ Latinco<tspan class="caret" fill="#22d3ee"> ▌</tspan></text>
+      <text class="role r3" x="600" y="232"><tspan fill="#a78bfa">❯ </tspan>Exploring AI &amp; model training<tspan class="caret" fill="#22d3ee"> ▌</tspan></text>
     </g>
 
     <!-- pills -->
@@ -111,7 +111,7 @@
       <g transform="translate(466 282)">
         <rect width="268" height="40" rx="20" fill="#ffffff" fill-opacity=".06" stroke="#22d3ee" stroke-opacity=".5"/>
         <circle cx="24" cy="20" r="5" fill="#22d3ee"><animate attributeName="r" values="4;6;4" dur="2s" begin=".6s" repeatCount="indefinite"/></circle>
-        <text x="142" y="25" fill="#cffafe">EAFIT · 7th semester</text>
+        <text x="142" y="25" fill="#cffafe">AI &amp; Machine Learning</text>
       </g>
       <g transform="translate(750 282)">
         <rect width="228" height="40" rx="20" fill="#ffffff" fill-opacity=".06" stroke="#f472b6" stroke-opacity=".5"/>

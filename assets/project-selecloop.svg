@@ -35,12 +35,13 @@
    <animateTransform attributeName="transform" type="rotate" values="0;0;180;180" keyTimes="0;.6;.8;1" dur="5s" repeatCount="indefinite"/></g>
     </g></g>
     <g class="in a2">
-      <text class="mono" x="170" y="62" font-size="12" letter-spacing="3" fill="#a78bfa">03</text>
+      <text class="mono" x="170" y="62" font-size="12" letter-spacing="3" fill="#a78bfa">04</text>
       <text x="542" y="62" text-anchor="end" font-size="14" font-weight="600" fill="#e2e8f0">View repo</text><g class="arrow"><text x="564" y="62" text-anchor="end" font-size="16" font-weight="700" fill="#a78bfa">→</text></g>
       <text x="170" y="108" font-size="32" font-weight="800" fill="#f8fafc">SelecLoop</text>
     </g>
     <text class="in a3" x="170" y="144" font-size="18" fill="#a3b1c6"><tspan x="170" dy="0">Collaborative platform for anonymous</tspan><tspan x="170" dy="26">reviews of hiring processes, for</tspan><tspan x="170" dy="26">candidates and companies alike.</tspan></text>
     <g class="in a3"><g transform="translate(170 220)"><rect width="46" height="28" rx="14" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".4"/><text x="23.0" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#a78bfa">Web</text></g><g transform="translate(224 220)"><rect width="92" height="28" rx="14" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".4"/><text x="46.0" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#a78bfa">Community</text></g><g transform="translate(324 220)"><rect width="84" height="28" rx="14" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".4"/><text x="42.0" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#a78bfa">Feedback</text></g></g>
+    
   </g>
   <rect x="1" y="1" width="598" height="268" rx="21" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
 </svg>

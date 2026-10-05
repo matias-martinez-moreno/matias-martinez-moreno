@@ -36,12 +36,13 @@
    <circle r="3.5" fill="#f472b6"><animateMotion dur="2.4s" repeatCount="indefinite" path="M-16 -16H0V16H20"/></circle>
     </g></g>
     <g class="in a2">
-      <text class="mono" x="170" y="62" font-size="12" letter-spacing="3" fill="#f472b6">02</text>
+      <text class="mono" x="170" y="62" font-size="12" letter-spacing="3" fill="#f472b6">03</text>
       <text x="564" y="62" text-anchor="end" font-size="13" font-weight="600" fill="#64748b">Private project</text>
       <text x="170" y="108" font-size="32" font-weight="800" fill="#f8fafc">Soufflé</text>
     </g>
     <text class="in a3" x="170" y="144" font-size="18" fill="#a3b1c6"><tspan x="170" dy="0">Booking and event automation: forms,</tspan><tspan x="170" dy="26">files and email working together to</tspan><tspan x="170" dy="26">manage rooms and availability.</tspan></text>
     <g class="in a3"><g transform="translate(170 220)"><rect width="130" height="28" rx="14" fill="#f472b6" fill-opacity=".1" stroke="#f472b6" stroke-opacity=".4"/><text x="65.0" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#f472b6">Power Automate</text></g><g transform="translate(308 220)"><rect width="62" height="28" rx="14" fill="#f472b6" fill-opacity=".1" stroke="#f472b6" stroke-opacity=".4"/><text x="31.0" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#f472b6">Forms</text></g><g transform="translate(378 220)"><rect width="62" height="28" rx="14" fill="#f472b6" fill-opacity=".1" stroke="#f472b6" stroke-opacity=".4"/><text x="31.0" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#f472b6">Email</text></g></g>
+    
   </g>
   <rect x="1" y="1" width="598" height="268" rx="21" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
 </svg>

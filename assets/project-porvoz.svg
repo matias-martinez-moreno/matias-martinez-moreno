@@ -38,6 +38,7 @@
     </g>
     <text class="in a3" x="170" y="144" font-size="18" fill="#a3b1c6"><tspan x="170" dy="0">Medication reminders through automated</tspan><tspan x="170" dy="26">voice calls, Gemini response analysis</tspan><tspan x="170" dy="26">and caregiver alerts.</tspan></text>
     <g class="in a3"><g transform="translate(170 220)"><rect width="69" height="28" rx="14" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4"/><text x="34.5" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#22d3ee">Django</text></g><g transform="translate(247 220)"><rect width="69" height="28" rx="14" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4"/><text x="34.5" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#22d3ee">Twilio</text></g><g transform="translate(324 220)"><rect width="69" height="28" rx="14" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4"/><text x="34.5" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#22d3ee">Gemini</text></g><g transform="translate(401 220)"><rect width="69" height="28" rx="14" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4"/><text x="34.5" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#22d3ee">Celery</text></g></g>
+    
   </g>
   <rect x="1" y="1" width="598" height="268" rx="21" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
 </svg>
