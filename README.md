@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Matías Martínez Moreno — Systems Engineering · Software, automation and AI"/>
+<img src="assets/header.svg" width="100%" alt="Matías Martínez Moreno · Systems Engineering · Software, automation and AI"/>
 
 <br/><br/>
 
-Systems Engineering student at EAFIT. At **Latinco** I work on software development and automation projects.<br/>
-I enjoy project-driven work and automating processes, and I'm especially drawn to **AI** —<br/>
+Systems Engineering at EAFIT. I work on software development and automation projects.<br/>
+I enjoy project-driven work and automating processes, and I'm especially drawn to AI,<br/>
 from building intelligent applications to training and fine-tuning models.
 
 <br/>
@@ -21,15 +21,15 @@ from building intelligent applications to training and fine-tuning models.
 
 <table align="center">
   <tr>
-    <td width="50%"><a href="https://github.com/Porvoz/Porvoz_web"><img src="assets/project-porvoz.svg" width="100%" alt="Porvoz — AI medication reminders with voice calls"/></a></td>
-    <td width="50%"><img src="assets/project-incarosa.svg" width="100%" alt="Incarosa — responsibility management with automated email notifications (private)"/></td>
+    <td width="50%"><a href="https://github.com/Porvoz/Porvoz_web"><img src="assets/project-porvoz.svg" width="100%" alt="Porvoz · AI medication reminders with voice calls"/></a></td>
+    <td width="50%"><img src="assets/project-incarosa.svg" width="100%" alt="Incarosa · responsibility management with automated email notifications (private)"/></td>
   </tr>
   <tr>
-    <td width="50%"><img src="assets/project-souffle.svg" width="100%" alt="Soufflé — booking and event automation with Power Automate (private)"/></td>
-    <td width="50%"><a href="https://github.com/matias-martinez-moreno/SelecLoop"><img src="assets/project-selecloop.svg" width="100%" alt="SelecLoop — reviews of hiring processes"/></a></td>
+    <td width="50%"><img src="assets/project-souffle.svg" width="100%" alt="Soufflé · booking and event automation with Power Automate (private)"/></td>
+    <td width="50%"><a href="https://github.com/matias-martinez-moreno/SelecLoop"><img src="assets/project-selecloop.svg" width="100%" alt="SelecLoop · reviews of hiring processes"/></a></td>
   </tr>
   <tr>
-    <td colspan="2"><a href="https://github.com/matias-martinez-moreno/SphereLink"><img src="assets/project-spherelink.svg" width="100%" alt="SphereLink — institutional event management"/></a></td>
+    <td colspan="2"><a href="https://github.com/matias-martinez-moreno/SphereLink"><img src="assets/project-spherelink.svg" width="100%" alt="SphereLink · institutional event management"/></a></td>
   </tr>
 </table>
 
