@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-label="Incarosa">
+  <style>
+    .sans { font-family: 'Segoe UI', 'Inter', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', monospace; }
+    .in { }
+    .a1 { animation-delay: .1s; } .a2 { animation-delay: .25s; } .a3 { animation-delay: .4s; }
+    @keyframes up { from { opacity: .2; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .arrow { animation: nudge 1.6s ease-in-out infinite; }
+    @keyframes nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(5px); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="270" spreadMethod="reflect">
+      <stop offset="0" stop-color="#d97706"/><stop offset=".5" stop-color="#f59e0b" stop-opacity=".15"/><stop offset="1" stop-color="#f59e0b" stop-opacity=".7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;600 270;0 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="halo"><stop offset="0" stop-color="#d97706" stop-opacity=".14"/><stop offset="1" stop-color="#d97706" stop-opacity="0"/></radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+    <clipPath id="clip"><rect width="600" height="270" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)" class="sans">
+    <rect width="600" height="270" fill="url(#bg)"/>
+    <circle cx="80" cy="270" r="120" fill="#f59e0b" opacity=".08" filter="url(#blur)">
+      <animate attributeName="opacity" values=".05;.12;.05" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <g transform="translate(90 135)"><g class="in a1">
+      <circle r="62" fill="url(#halo)"/>
+      <circle r="44" fill="#ffffff" stroke="#d97706" stroke-opacity=".3" stroke-width="1.5"/>
+      <circle r="52" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="10 9" stroke-opacity=".6">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="20s" repeatCount="indefinite"/>
+      </circle>
+      <g stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="-24" y="-22" width="12" height="12" rx="3" stroke="#d97706" stroke-width="2.5"/><path d="M-21 -16l3 3 5-6" stroke="#d97706" stroke-width="2.5" stroke-dasharray="14" stroke-dashoffset="14"><animate attributeName="stroke-dashoffset" values="14;14;0;0" keyTimes="0;0.1;0.2;1" dur="4s" repeatCount="indefinite"/></path><path d="M-4 -16H24" stroke="#d97706" stroke-opacity=".55" stroke-width="3"/><rect x="-24" y="-6" width="12" height="12" rx="3" stroke="#d97706" stroke-width="2.5"/><path d="M-21 0l3 3 5-6" stroke="#d97706" stroke-width="2.5" stroke-dasharray="14" stroke-dashoffset="14"><animate attributeName="stroke-dashoffset" values="14;14;0;0" keyTimes="0;0.35;0.44999999999999996;1" dur="4s" repeatCount="indefinite"/></path><path d="M-4 0H18" stroke="#d97706" stroke-opacity=".55" stroke-width="3"/><rect x="-24" y="10" width="12" height="12" rx="3" stroke="#d97706" stroke-width="2.5"/><path d="M-21 16l3 3 5-6" stroke="#d97706" stroke-width="2.5" stroke-dasharray="14" stroke-dashoffset="14"><animate attributeName="stroke-dashoffset" values="14;14;0;0" keyTimes="0;0.6;0.7;1" dur="4s" repeatCount="indefinite"/></path><path d="M-4 16H22" stroke="#d97706" stroke-opacity=".55" stroke-width="3"/></g>
+    </g></g>
+    <g class="in a2">
+      <text class="mono" x="170" y="62" font-size="12" letter-spacing="3" fill="#d97706">03</text>
+      <text x="564" y="62" text-anchor="end" font-size="13" font-weight="600" fill="#94a3b8">Private project</text>
+      <text x="170" y="108" font-size="32" font-weight="800" fill="#0f172a">Incarosa</text>
+    </g>
+    <text class="in a3" x="170" y="144" font-size="18" fill="#475569"><tspan x="170" dy="0">Responsibility management platform:</tspan><tspan x="170" dy="26">tracks obligations, evidence and status</tspan><tspan x="170" dy="26">with automated email notifications.</tspan></text>
+    <g class="in a3"><g transform="translate(170 220)"><rect width="100" height="28" rx="14" fill="#d97706" fill-opacity=".08" stroke="#d97706" stroke-opacity=".25"/><text x="50.0" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#d97706">Automation</text></g><g transform="translate(278 220)"><rect width="62" height="28" rx="14" fill="#d97706" fill-opacity=".08" stroke="#d97706" stroke-opacity=".25"/><text x="31.0" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#d97706">Email</text></g><g transform="translate(348 220)"><rect width="92" height="28" rx="14" fill="#d97706" fill-opacity=".08" stroke="#d97706" stroke-opacity=".25"/><text x="46.0" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#d97706">Dashboard</text></g></g>
+    
+  </g>
+  <rect x=".75" y=".75" width="598.5" height="268.5" rx="21.25" fill="none" stroke="#e2e8f0" stroke-width="1.5"/>
+  <g clip-path="url(#clip)"><rect width="600" height="3" fill="#d97706" opacity=".25"/>
+    <rect width="180" height="3" fill="#d97706"><animate attributeName="x" values="-180;600" dur="4s" repeatCount="indefinite"/></rect></g>
+</svg>
